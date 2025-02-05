@@ -41,7 +41,12 @@ from .agent import (
     BackupAgentPlatformProtocol,
     LocalBackupAgent,
 )
-from .config import BackupConfig, delete_backups_exceeding_configured_count
+from .config import (
+    BackupConfig,
+    create_automatic_backup_agents_unavailable_issue,
+    delete_automatic_backup_agents_unavailable_issue,
+    delete_backups_exceeding_configured_count,
+)
 from .const import (
     BUF_SIZE,
     DATA_MANAGER,
@@ -57,10 +62,6 @@ from .models import (
     BackupReaderWriterError,
     BaseBackup,
     Folder,
-)
-from .repairs import (
-    create_automatic_backup_agents_not_loaded_issue,
-    delete_automatic_backup_agents_not_loaded_issue,
 )
 from .store import BackupStore
 from .util import (
@@ -414,11 +415,11 @@ class BackupManager:
                 missing_agent_ids,
             )
             for agent_id in missing_agent_ids:
-                create_automatic_backup_agents_not_loaded_issue(self.hass, agent_id)
+                create_automatic_backup_agents_unavailable_issue(self.hass, agent_id)
 
         # Remove any issues for agents that are now loaded
         for agent_id in self.backup_agents:
-            delete_automatic_backup_agents_not_loaded_issue(self.hass, agent_id)
+            delete_automatic_backup_agents_unavailable_issue(self.hass, agent_id)
 
     async def _add_platform(
         self,
