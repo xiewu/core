@@ -81,7 +81,7 @@ PyQRCode==1.2.1
 PyRMVtransport==0.3.3
 
 # homeassistant.components.switchbot
-PySwitchbot==0.55.4
+PySwitchbot==0.56.0
 
 # homeassistant.components.syncthru
 PySyncThru==0.8.0
@@ -246,7 +246,7 @@ aioguardian==2022.07.0
 aioharmony==0.4.1
 
 # homeassistant.components.hassio
-aiohasupervisor==0.2.2b6
+aiohasupervisor==0.3.0
 
 # homeassistant.components.home_connect
 aiohomeconnect==0.12.3
@@ -634,7 +634,7 @@ datadog==0.15.0
 datapoint==0.9.9
 
 # homeassistant.components.bluetooth
-dbus-fast==2.32.0
+dbus-fast==2.33.0
 
 # homeassistant.components.debugpy
 debugpy==1.8.11
@@ -905,7 +905,7 @@ gotailwind==0.3.0
 govee-ble==0.42.1
 
 # homeassistant.components.govee_light_local
-govee-local-api==1.5.3
+govee-local-api==2.0.0
 
 # homeassistant.components.gpsd
 gps3==0.33.3
@@ -950,7 +950,7 @@ habluetooth==3.21.1
 hass-nabucasa==0.89.0
 
 # homeassistant.components.conversation
-hassil==2.2.0
+hassil==2.2.3
 
 # homeassistant.components.jewish_calendar
 hdate==0.11.1
@@ -975,10 +975,10 @@ hole==0.8.0
 holidays==0.65
 
 # homeassistant.components.frontend
-home-assistant-frontend==20250204.0
+home-assistant-frontend==20250205.0
 
 # homeassistant.components.conversation
-home-assistant-intents==2025.1.28
+home-assistant-intents==2025.2.5
 
 # homeassistant.components.homematicip_cloud
 homematicip==1.1.7
@@ -1086,7 +1086,7 @@ konnected==1.2.0
 krakenex==2.2.2
 
 # homeassistant.components.lacrosse_view
-lacrosse-view==1.0.4
+lacrosse-view==1.1.1
 
 # homeassistant.components.laundrify
 laundrify-aio==1.2.2
@@ -1307,7 +1307,7 @@ omnilogic==0.4.5
 ondilo==0.5.0
 
 # homeassistant.components.onedrive
-onedrive-personal-sdk==0.0.4
+onedrive-personal-sdk==0.0.8
 
 # homeassistant.components.onvif
 onvif-zeep-async==3.2.5
@@ -2109,7 +2109,7 @@ renault-api==0.2.9
 renson-endura-delta==1.7.2
 
 # homeassistant.components.reolink
-reolink-aio==0.11.8
+reolink-aio==0.11.9
 
 # homeassistant.components.rflink
 rflink==0.0.66
@@ -2318,7 +2318,7 @@ thermobeacon-ble==0.7.0
 thermopro-ble==0.11.0
 
 # homeassistant.components.lg_thinq
-thinqconnect==1.0.2
+thinqconnect==1.0.4
 
 # homeassistant.components.tilt_ble
 tilt-ble==0.2.3
