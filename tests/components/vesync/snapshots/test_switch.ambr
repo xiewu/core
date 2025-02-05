@@ -377,7 +377,7 @@
       'previous_unique_id': None,
       'supported_features': 0,
       'translation_key': None,
-      'unique_id': 'outlet',
+      'unique_id': 'outlet-device_status',
       'unit_of_measurement': None,
     }),
   ])
@@ -539,7 +539,7 @@
       'previous_unique_id': None,
       'supported_features': 0,
       'translation_key': None,
-      'unique_id': 'switch',
+      'unique_id': 'switch-device_status',
       'unit_of_measurement': None,
     }),
   ])
